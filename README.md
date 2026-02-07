@@ -38,6 +38,36 @@ The extension automatically downloads the appropriate LSP binary for your platfo
 
 See [Zed's extension development docs](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally) for more details.
 
+## Zed Settings
+
+The extension automatically handles `.opf`, `.xhtml`, and `.ncx` files. For `.html` and `.css` files, which already have built-in language servers in Zed, add gubby explicitly in your Zed settings (`~/.config/zed/settings.json` or project `.zed/settings.json`):
+
+```json
+{
+  "languages": {
+    "HTML": {
+      "language_servers": ["gubby", "..."]
+    },
+    "CSS": {
+      "language_servers": ["gubby", "..."]
+    }
+  }
+}
+```
+
+The `"..."` preserves Zed's default language servers for those languages.
+
+To force specific file extensions to use a particular language, use `file_types`:
+
+```json
+{
+  "file_types": {
+    "EPUB XHTML": ["xhtml"],
+    "OPF Package": ["opf"]
+  }
+}
+```
+
 ## Building the Extension
 
 ```bash
