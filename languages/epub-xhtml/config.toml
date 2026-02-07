@@ -1,0 +1,3 @@
+name = "EPUB XHTML"
+path_suffixes = ["xhtml"]
+tab_size = 2

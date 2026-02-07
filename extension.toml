@@ -1,0 +1,11 @@
+id = "gubby"
+name = "Gubby"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jason Abbott"]
+description = "EPUB validation with LSP (diagnostics for OPF, XHTML, CSS, navigation)"
+repository = "https://github.com/toba/gubby"
+
+[language_servers.gubby]
+name = "Gubby"
+languages = ["OPF Package", "EPUB XHTML", "NCX Navigation", "HTML", "CSS"]

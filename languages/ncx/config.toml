@@ -1,0 +1,3 @@
+name = "NCX Navigation"
+path_suffixes = ["ncx"]
+tab_size = 2
