@@ -1,6 +1,6 @@
 id = "gubby"
 name = "Gubby"
-version = "0.3.0"
+version = "0.3.1"
 schema_version = 1
 authors = ["Jason Abbott"]
 description = "EPUB validation with LSP (diagnostics for OPF, XHTML, CSS, navigation)"
