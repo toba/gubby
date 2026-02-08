@@ -1,3 +1,6 @@
 name = "OPF Package"
+grammar = "xml"
 path_suffixes = ["opf"]
 tab_size = 2
+block_comment = ["<!-- ", " -->"]
+brackets = [{ start = "<", end = ">", close = true, newline = true }]

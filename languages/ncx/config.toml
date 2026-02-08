@@ -1,3 +1,6 @@
 name = "NCX Navigation"
+grammar = "xml"
 path_suffixes = ["ncx"]
 tab_size = 2
+block_comment = ["<!-- ", " -->"]
+brackets = [{ start = "<", end = ">", close = true, newline = true }]

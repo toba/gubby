@@ -1,3 +1,6 @@
 name = "EPUB XHTML"
+grammar = "xml"
 path_suffixes = ["xhtml"]
 tab_size = 2
+block_comment = ["<!-- ", " -->"]
+brackets = [{ start = "<", end = ">", close = true, newline = true }]
