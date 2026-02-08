@@ -1,10 +1,15 @@
 id = "gubby"
 name = "Gubby"
-version = "0.2.0"
+version = "0.3.0"
 schema_version = 1
 authors = ["Jason Abbott"]
 description = "EPUB validation with LSP (diagnostics for OPF, XHTML, CSS, navigation)"
 repository = "https://github.com/toba/gubby"
+
+[grammars.xml]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
+commit = "863dbc381f44f6c136a399e684383b977bb2beaa"
+path = "xml"
 
 [language_servers.gubby]
 name = "Gubby"
